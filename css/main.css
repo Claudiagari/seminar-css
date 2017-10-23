@@ -1,0 +1,36 @@
+/*setear nuestros archivos*/
+body{
+  box-sizing: border-box;
+  color: #303030;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*clases reutilizables*/
+.text-uppercase{
+  text-transform:uppercase;
+}
+/*clases especificas*/
+.box-header{
+  display: inline-block;
+}
+.logo-header{
+  width: 200px;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+header{
+  position: relative;
+}
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translatey(-50%);
+}
